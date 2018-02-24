@@ -34,6 +34,7 @@ function fillcell() {
 function gridWash() {
     $("#pixelCanvas").children().remove();
 }
+
 $(document).ready(
     function form() {
         $("#submit_form").click(function (e) {
