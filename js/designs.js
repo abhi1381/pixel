@@ -24,7 +24,7 @@ function makeGrid() {
 }
 
 function fillcell() {
-    $(".cell").click(function () {
+    $(".cell").on("mouseover" , function () {
         var Color = SetColor.val();
         $(this).css('background-color', Color);
     });

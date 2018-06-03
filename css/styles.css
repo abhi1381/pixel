@@ -1,6 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     text-align: center;
     background-color: rgb(255, 205, 80);
+    height: 100%;
 }
 
 h1 {
@@ -22,7 +27,7 @@ table,
 tr,
 td {
     border: 2px solid black;
-    margin: 30px;
+    margin: 3em;
 }
 
 table {
@@ -32,13 +37,24 @@ table {
 }
 
 tr {
-    height: 20px;
+    height: 2em;
 }
 
 td {
-    width: 20px;
+    width: 2em;
 }
 
 input[type=number] {
     width: 10em;
+}
+
+footer {
+
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
